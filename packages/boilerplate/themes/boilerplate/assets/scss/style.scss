@@ -39,6 +39,7 @@ $breakpoint-max-xl: 1499px;
 @import "footer";
 @import "hero";
 @import "cta";
+@import "card-block";
 
 
 
@@ -59,10 +60,6 @@ $breakpoint-max-xl: 1499px;
     background-color: $color-black;
     z-index: -1;
 }
-
-// .page__wrap {
-//     overflow: hidden;
-// }
 
 .dark-overlay {
     background-color: rgba(0, 0, 0, 0.212);

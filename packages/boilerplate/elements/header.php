@@ -19,15 +19,31 @@
 
   <div class="<?= $c->getPageWrapperClass() ?>">
     <div class="page__wrap">
-<section class="header">
-        <input type="checkbox" name="nav-btn" id="nav-btn" />
-        <span></span>
-        
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About me</a></li>
-            </ul>
-        </nav>
 
-</section>
+        <header class="header">
+
+            <nav class="navbar">
+                <span class="navbar-toggle" id="js-navbar-toggle">
+                    <i class="fas fa-bars"></i>
+                </span>
+                <a href="#" class="logo">logo</a>
+                <ul class="main-nav" id="js-menu">
+                    <li>
+                        <a href="#" class="nav-links">Home</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-links">Products</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-links">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-links">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-links">Blog</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </header>

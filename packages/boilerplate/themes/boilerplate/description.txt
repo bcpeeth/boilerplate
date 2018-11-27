@@ -1,2 +1,2 @@
-Prins Pils
+Boilerplate
 Website template
